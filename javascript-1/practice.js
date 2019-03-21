@@ -185,9 +185,12 @@ const people = [
 ]
 
 // Code Here
+let enemies = people.filter((f)=> f.friend);
+
 
 //////////////////PROBLEM 20////////////////////
 
 // Using the people array above, let's get a total of the awesomeLevel from all the people. Call the new array 'totallyAwesome'. Use .reduce and an arrow function
 
 // Code Here
+// let totallyAwesome = people.reduce(acc, tot) => acc + tot;
