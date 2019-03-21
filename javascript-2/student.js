@@ -5,12 +5,12 @@
 //Create a variable called lovesCode and set it true or false (as a boolean) depending on if you love code or not. It's okay if you don't, yet
 
 // Code Here
-
+var lovesCode = true;
 //////////////////STEP 2////////////////////
 //Create a variable called age that is your age as a number
 
 // Code Here
-
+var age = 21;
 //////////////////STEP 3////////////////////
 //Create a variable called name that is your name as a string
 
