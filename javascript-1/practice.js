@@ -151,7 +151,7 @@ let filtered = myNumbers.filter(x => x > 100);
 // Next up, reduce. Use .reduce and an arrow function to get the total of the array. call the new array 'total' and use an arrow function
 
 // Code Here
-
+let total = myNumbers.reduce((acc, curVal) => acc + curVal);
 //////////////////PROBLEM 17////////////////////
 
 // Last, lets use .forEach to find the index of each item in the array. First, create an empty array called myNumbersIndex. Next, using forEach, push each items index from the myNumbers array to the myNumbersIndex array
