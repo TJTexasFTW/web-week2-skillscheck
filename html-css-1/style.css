@@ -7,7 +7,7 @@ h1 {
     width: 100vw;
     height: 15vh;
     display: flex;
-    align-content: center;
+    /* align-content: center; */
     justify-content: center;
     padding-top: 60px;
     
@@ -20,13 +20,35 @@ nav {
     background: gray;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+    /* height: 75vh; */
+    /* border: 1px solid red; */
+    align-items: center;
+}
+
+#NavLeft {
+    font-size: 20pt;
+    width: 40vw;
+   
+}
+
+#NavRight{
+    font-size: 12pt;
+    align-content: space-between;
+    justify-content: space-evenly;
+    width: 40vw; 
 }
 
 #More{
     position: center;
-    justify-content: flex-center;
-    align-content: center;
+    /* justify-content: flex-center; */
+    /* align-content: center; */
     height: 30vh;
+    width: 30vw;
     /* border: 10px green; */
 }
 
@@ -66,12 +88,13 @@ nav {
 .MF {
     padding-top: 10px; 
     display: inline-block;
-    justify-content: first baseline;
+    justify-content: safe;
     align-content: space-between;
     /* background-color: light green; */
     margin: 0 50px;
     height: 20vh;
     width: 20vw;  
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
