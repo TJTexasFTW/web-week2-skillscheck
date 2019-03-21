@@ -185,7 +185,7 @@ const people = [
 ]
 
 // Code Here
-let enemies = people.filter((f)=> f.friend);
+let enemies = people.filter(people => people.friend != true);
 
 
 //////////////////PROBLEM 20////////////////////
