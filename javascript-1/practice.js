@@ -159,8 +159,10 @@ let total = myNumbers.reduce((acc, curVal) => acc + curVal);
 // Code Here
 let myNumbersIndex = [];
 myNumbers.forEach(function(item){
-	myNumbers.push(item);
-});
+	index = myNumbers.indexOf(item);
+	// console.log(index);
+	  myNumbersIndex.push(index);
+  });
 
 //////////////////PROBLEM 18////////////////////
 
