@@ -69,8 +69,9 @@ function setPowers(arr5) {
 
 // CODE HERE
 function redactInfo(obj) {
-    for (y in obj) {
-        obj.y = "";
+    for (var props in obj) {
+        obj[props] = "redacted";
+        console.log("Props: "+ props);
     }
     redacted();
 }
