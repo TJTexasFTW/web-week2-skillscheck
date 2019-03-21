@@ -139,7 +139,7 @@ const myNumbers = [3, 55, 788, 2, 1]
 // First, with an arrow function let's use .map to create a new array that doubles each number. Call the new array 'doubled'
 
 // Code Here
-
+let doubled = myNumbers.map(x => x * 2);
 //////////////////PROBLEM 15////////////////////
 
 // Now lets use .filter and an arrow function to only get the nubmer(s) greater than 100. Use an arrow function and call the new array 'filtered'
