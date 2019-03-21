@@ -145,7 +145,7 @@ let doubled = myNumbers.map(x => x * 2);
 // Now lets use .filter and an arrow function to only get the nubmer(s) greater than 100. Use an arrow function and call the new array 'filtered'
 
 // Code Here
-
+let filtered = myNumbers.filter(x => x > 100);
 //////////////////PROBLEM 16////////////////////
 
 // Next up, reduce. Use .reduce and an arrow function to get the total of the array. call the new array 'total' and use an arrow function
