@@ -102,6 +102,16 @@ let me = {
 // Create a function called 'bigOrSmall' that takes in one parameter, arr. Create a new array inside of bigOrSmall called 'answers'. Loop over the passed in arr param. If the number is GREATER than 100, push 'big' as a string to the answers array. If the number is LESS than or EQUAL to 100, push 'small' as a string to the answers array. Return the answers array inside of the function
 
 // Code here
+function bigOrSmall(arr) {
+	let answers = [];
+	for (let i=0; i < arr.length; i++) {
+		if (arr[i] > 100) {
+			answers.push("big");
+		} else {
+      answers.push("small");}
+	} return answers;
+}
+
 
 //////////////////PROBLEM 13////////////////////
 
