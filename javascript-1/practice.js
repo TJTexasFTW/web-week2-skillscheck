@@ -194,4 +194,4 @@ let enemies = people.filter(people => people.friend != true);
 
 // Code Here
 let totallyAwesome = "something";
-// let totallyAwesome = people.reduce(acc, tot) => acc.people[acc].awesomeLevel + tot.people[acc].awesomeLevel;
+// totallyAwesome = people.reduce((acc, tot) => acc.people[acc].awesomeLevel + tot.people[acc].awesomeLevel;
