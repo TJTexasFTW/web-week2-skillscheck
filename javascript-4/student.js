@@ -25,7 +25,7 @@ let faveColors = ["red", "blue", "black"];
 // CODE HERE
 let me = {firstname: "TJ", superHeroName: "Queen of Questions", homeTown: "Bedford", superPowers: ["spotting typos", "sleeping", "walking"], superPowerXP: function() {
     return Math.floor(Math.random() * 100) + 1;
-}, profileImage: "https://github.com/TJTexasFTW"}
+}, profileImage: `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg`}
 
 // profileImage: "https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg"
 
