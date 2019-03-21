@@ -170,6 +170,7 @@ myNumbers.forEach(function(item){
 const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
 
 // Code Here
+let forTheLoveOfGeorge = notGeorge.map(x => x = "George");
 
 //////////////////PROBLEM 19////////////////////
 
