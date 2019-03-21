@@ -118,6 +118,15 @@ function bigOrSmall(arr) {
 // Create a function called 'arrayReverser' that takes in one parameter, arr. Inside of arrayReverser, create an empty array called 'reversed'. Using a for loop, loop over the passed in array in reverse and add each item to the new reversed array. Finally, return the new reversed array
 
 //Code Here
+function arrayReverser(arr13) {
+	let reversed = [];
+	let x = arr13.length-1;
+	for (let i =0; i < arr13.length; i++) {
+		reversed[x] = arr13[i];
+		x--;
+	} return reversed;
+}
+
 
 //////////////////PROBLEM 14 - 18 Setup////////////////////
 
