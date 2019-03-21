@@ -31,6 +31,10 @@ let me = {firstname: "TJ", superHeroName: "Queen of Questions", homeTown: "Bedfo
 // Create three variables to hold some data off your me object. The first variable should be 'regularName' that is the value of your firstName on the me object. The next variable is 'superName' which is the value of superHeroName on the me object. Last is 'homeTown' which will be the value of homeTown on the me object
 
 // CODE HERE
+let regularName = me.firstname;
+let superName = me.superHeroName;
+let homeTown = me.homeTown;
+
 
 //////////////////Step 4////////////////////
 //Create a function called 'setColor' that takes in one param called arr. Just to make sure that we only ever have three colors, use splice to trim the array to 3 colors. 
