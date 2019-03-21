@@ -20,7 +20,7 @@ var name = "TJ";
 //Create a variable called phrase that is initially set as an empty string
 
 // Code Here
-
+let phrase = "";
 //////////////////STEP 5////////////////////
 //Create an if statement that checkes to see if the lovesCode variable is equal to true, if it is, set the phrase variable created above to 'I love code', it it's not true set the phrase variable to 'I do not love to code'
 
