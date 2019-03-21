@@ -42,6 +42,17 @@ let homeTown = me.homeTown;
 // Next, create a for loop to loop over the array. If any of the colors you chose is 'blue', change it's value to '#4D4DFF' which is just a more appealing color of blue. Outside of the for loop but still inside of setColor, invoke the function called background which will take in three arguments. These arguments should be each item of your array. This is a function we created for you to set the background colors.
 
 // CODE HERE
+function setColor(arr4) {
+    arr4.splice(3, arr4.length-3);
+    
+    for (let i = 0; i < arr4.length; i++) {
+        if (arr4[i] === "blue") {
+            arr4[i] = '#4D4DFF';
+        }
+    }
+    background(faveColors[0], faveColors[1], faveColors[2]);
+}
+
 
 //////////////////Step 5////////////////////
 //Create a function called 'setPowers' that takes in arr as a parameter. Loop over the arr param and run a function called createLi(), which will take each item of the array as an agument. The createLi function is a function we created to set the data on the screen. It outside the scope of this project
